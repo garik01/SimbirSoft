@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EmailTest test = new EmailTest(InitDriver.init());
-        test.startTestYandex();
+        Tests.startTestYandex(InitDriver.init());
 
     }
+
 }
