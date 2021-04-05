@@ -32,7 +32,7 @@ public class Tests {
             selenium.click(selenium.getElement("//span[@title='Simbirsoft Тестовое задание']"));
             String sender = selenium.getElement("//span[@class='mail-Message-Sender-Email mail-ui-HoverLink-Content']").getText();
             selenium.click(selenium.getElement("//span[@class='mail-Toolbar-Item-Text js-toolbar-item-title js-toolbar-item-title-delete']"));
-            selenium.sendEmail(sender,"Simbirsoft Тестовое задание. (Demidov)","count: " + count);
+            selenium.sendEmail(sender,"Simbirsoft Тестовое задание. (Demidov)","Количество найденных сообщений: " + count);
         }
     }
 
